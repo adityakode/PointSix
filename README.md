@@ -1,5 +1,10 @@
 
 
+## Index
+
+- [Question](https://github.com/adityakode/PointSix/edit/main/README.md#question-problem-statement-) 
+- [Solution](https://github.com/adityakode/PointSix/edit/main/README.md#bulb-my-solution)
+- [Testing](https://github.com/adityakode/PointSix/edit/main/README.md#testing)
 
 ##  :question: Problem Statement : 
  Write a smart contract to Mint an NFT associated with a unique code<hidden at first>,
@@ -89,5 +94,13 @@ Function `makeVisible` and `burnNFT` makes the secret Code and burns the NFT res
          codeBase[_tokenId] = 0;
     }
 ```
+
+## Testing
+I have used `Hardhat`,`Mocha` and `Chai` for tests.
+
+## Output for tests
+![image](https://user-images.githubusercontent.com/105551807/221367844-1b055a44-362e-4e32-bb06-2fa75b319f80.png)
+
+
 
 
